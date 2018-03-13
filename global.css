@@ -1,0 +1,99 @@
+body {
+    min-height: 100%;
+}
+
+.wrapper {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    max-width: 1440px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 48px;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    width: 100%;
+}
+
+img {
+    width: 100%;
+}
+
+.nav {
+    background-color: #04243C;
+}
+
+.nav p {
+    color: #ffffff;
+}
+
+.nav ul {
+    list-style: none;
+}
+
+.nav li {
+    display: inline;
+    color: white;
+}
+
+.home {
+    background-color: #FDFDFD;
+    width: 100%;
+}
+
+.home h1 {
+    text-align: center;
+}
+
+.home p {
+    text-align: center;
+}
+
+.desk-pic {
+    margin: 0 auto;
+}
+
+.ui-design {
+    background-color: lightgrey;
+}
+
+.ux-design {
+    background-color: lightblue;
+}
+
+.dev {
+    background-color: lightcoral;
+}
+
+.about {
+    background-color: lightslategrey;
+}
+
+.contact {
+    background-color: lightsalmon;
+}
+
+.footer {
+    background-color: #04243C;
+}
+
+.copyright {
+    background-color: #041929;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
