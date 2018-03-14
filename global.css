@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     min-height: 100%;
 }
@@ -15,7 +19,8 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+li {
     font-family: 'Fjalla One', sans-serif;
     font-size: 48px;
 }
@@ -31,49 +36,85 @@ img {
 }
 
 .nav {
+    display: flex;
     background-color: #04243C;
+    height: 100px;
 }
 
 .nav p {
     color: #ffffff;
+    margin: auto;
+    font-size: 36px;
+    text-align: left;
+    padding: 10px 25px;
+    font-family: 'Fjalla One', sans-serif;
 }
 
 .nav ul {
     list-style: none;
+    height: 50px;
+    margin: auto;
+    display: block;
+    text-align: right;
 }
 
 .nav li {
-    display: inline;
+    display: inline-block;
     color: white;
+    padding: 10px 25px;
+    font-size: 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav a:hover {
+    border-bottom: white solid 2px;
+}
+
+.main-nav {
+    width: 100%;
 }
 
 .home {
     background-color: #FDFDFD;
     width: 100%;
+    overflow: hidden;
 }
 
-.home h1 {
+.home h1,
+p {
     text-align: center;
-}
-
-.home p {
-    text-align: center;
+    padding: 50px 20px 25px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .desk-pic {
+    display: flex;
+    max-width: 800px;
     margin: 0 auto;
+}
+
+.top-transition {
+    min-width: 100%;
 }
 
 .ui-design {
     background-color: lightgrey;
+    background-image: url("/Users/tim.thompson/Documents/GitHub/portfolio-site/Images/UI BG.svg");
 }
 
 .ux-design {
     background-color: lightblue;
+    background-image: url("/Users/tim.thompson/Documents/GitHub/portfolio-site/Images/UX BG.svg");
 }
 
 .dev {
     background-color: lightcoral;
+    background-image: url("/Users/tim.thompson/Documents/GitHub/portfolio-site/Images/Dev BG.svg");
 }
 
 .about {
@@ -93,7 +134,6 @@ img {
     color: white;
     font-family: 'Raleway', sans-serif;
     text-align: center;
-    position: fixed;
     bottom: 0px;
     width: 100%;
 }
